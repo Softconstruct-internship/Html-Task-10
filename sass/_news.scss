@@ -1,0 +1,93 @@
+#news {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    position: relative;
+    .new-container {
+        position: absolute;
+        width: 65%;
+        div {
+            h1 {
+                font-weight: 900;
+                font-size: 60px;
+                line-height: 70px;
+                color: $font_color;
+                text-align: center;
+            }
+        }
+    }
+
+    .news-conatainer{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2vw;
+        padding-top: 30px;
+    }
+
+    .news-conatainer {
+      
+        .info_container {
+            box-shadow: 15px 15px 35px 5px rgba(0, 0, 0, 0.15);
+            border-radius: 35px;
+            img {
+                width: 100%;
+            }
+            div {
+                padding-left: 10px;
+            }
+
+            h3 {
+                font-style: normal;
+                font-weight: 900;
+                font-size: 30px;
+                line-height: 35px;
+                color: $font_color;
+            }
+            span {
+                display: block;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 32px;
+                letter-spacing: 0.01em;
+                color: #5e8ab4;
+                opacity: 0.6;
+                line-height: 1.8;
+            }
+            p {
+                font-style: normal;
+                font-weight: 300;
+                font-size: 15px;
+                line-height: 32px;
+                letter-spacing: 0.01em;
+                color: #555555;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .news-conatainer {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        width: 100%;
+        padding: 10px !important;
+        // .info_container {
+        //     width: 100%;
+        //     padding: 10px !important;
+        // }
+    }
+}
+
+// @media (max-width: 601px) {
+//     .news-conatainer {
+//         grid-template-columns: 1fr;
+//         div {
+//             padding: 32px;
+//         }
+//     }
+// }
