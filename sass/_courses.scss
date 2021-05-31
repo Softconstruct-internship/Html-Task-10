@@ -4,11 +4,9 @@
     display: flex;
     justify-content: center;
     padding: 10px 0;
-    position: relative;
     padding-bottom: 250px;
     .courses {
         padding: 40px 0 40px 0;
-        position: absolute;
         width: 65%;
         text-align: center;
         h1 {
@@ -53,5 +51,11 @@
                 }
             }
         }
+    }
+}
+
+@media (min-width: 990px) {
+    .container_courses {
+        grid-template-rows: 1fr ;
     }
 }

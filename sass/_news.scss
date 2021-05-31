@@ -4,9 +4,7 @@
     display: flex;
     justify-content: center;
     padding: 10px 0;
-    // position: relative; 
     .new-container {
-        // position: absolute;
         width: 65%;
         div {
             h1 {
@@ -18,8 +16,7 @@
             }
         }
     }
-
-    .news-conatainer{
+    .news-conatainer {
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 1fr 1fr;
@@ -28,11 +25,11 @@
     }
 
     .news-conatainer {
-      
         .info_container {
             box-shadow: 15px 15px 35px 5px rgba(0, 0, 0, 0.15);
             border-radius: 35px;
             img {
+                border-radius: 35px;
                 width: 100%;
             }
             div {

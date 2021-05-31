@@ -7,7 +7,6 @@
     padding: 10px 0;
     position: relative;
     .header_container {
-       
         position: absolute;
         width: 65%;
         display: flex;
@@ -39,6 +38,13 @@
         img {
             padding-right: 4px;
             cursor: pointer;
+        }
+    }
+}
+@media (max-width: 990px) {
+    .navbar {
+        a {
+            display: none;
         }
     }
 }
