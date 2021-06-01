@@ -12,8 +12,49 @@
         display: flex;
         justify-content: space-between;
     }
-
     .logo_container {
+        img {
+            width: 102px;
+            height: 68px;
+        }
+    }
+    .navbar {
+        display: flex;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            color: #000;
+        }
+
+        div {
+            padding-right: 20px;
+        }
+
+        img {
+            padding-right: 4px;
+            cursor: pointer;
+        }
+    }
+}
+.main_header_about_page {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    .header_container {
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo_container {
+        height: 40px;
         img {
             width: 102px;
             height: 68px;

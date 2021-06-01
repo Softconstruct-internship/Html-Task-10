@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     padding: 10px 0;
+
     .container_about {
         width: 900px;
         h1 {
@@ -13,7 +14,15 @@
             text-align: center;
             color: $font_color;
         }
-      
+        span {
+            padding: 20px 0 20px 0;
+            color: blue;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            line-height: 29px;
+            letter-spacing: 0.6em;
+        }
         p {
             padding: 20px 0 20px 0;
             font-weight: 300;
@@ -33,12 +42,11 @@
                 font-size: 25px;
                 line-height: 29px;
                 letter-spacing: 0.6em;
-                padding-bottom: 30px;
             }
         }
     }
 }
-.img_container {
+.img_containers {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 120px 120px 120px 120px 120px 120px;
@@ -54,15 +62,5 @@
     img {
         width: 120px;
         height: 120px;
-    }
-}
-
-@media (max-width: 601px) {
-    .img_container {
-        grid-template-rows: 1fr;
-        grid-template-columns: 120px;
-        div {
-            padding: 20px;
-        }
     }
 }
