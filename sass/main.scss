@@ -1,11 +1,12 @@
 @import "variables";
 @import "header";
-@import "_courses";
+@import "courses";
 @import "about";
 @import "news";
 @import "footer";
 @import "about-page";
 @import "courses-page";
+@import "contact";
 *{
     margin: 0;
     padding: 0;
