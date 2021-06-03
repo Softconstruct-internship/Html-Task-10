@@ -151,7 +151,8 @@
 .img_container {
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 120px 120px 120px 120px 120px 120px;
+  /* grid-template-columns: 120px 120px 120px 120px 120px 120px; */
+  grid-template-columns: repeat(6, 1fr);
   grid-gap: 2vw;
   padding-top: 30px;
   padding: 20px 0 20px 0;
@@ -161,8 +162,10 @@
     box-shadow: 15px 15px 35px 5px rgba(0, 0, 0, 0.15);
     border-radius: 35px; }
   .img_container img {
-    width: 120px;
-    height: 120px; }
+    width: 100%;
+    /* width: 120px;
+    height: 120px; */
+   }
 
 @media (max-width: 601px) {
   .img_container {
