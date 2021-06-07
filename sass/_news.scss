@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     padding: 10px 0;
+
     .new-container {
         width: 65%;
         div {
@@ -28,10 +29,12 @@
         .info_container {
             box-shadow: 15px 15px 35px 5px rgba(0, 0, 0, 0.15);
             border-radius: 35px;
+
             img {
                 border-radius: 35px;
                 width: 100%;
             }
+
             div {
                 padding-left: 10px;
             }
@@ -43,6 +46,7 @@
                 line-height: 35px;
                 color: $font_color;
             }
+
             span {
                 display: block;
                 font-style: normal;
@@ -54,6 +58,7 @@
                 opacity: 0.6;
                 line-height: 1.8;
             }
+
             p {
                 font-style: normal;
                 font-weight: 300;
@@ -65,6 +70,7 @@
         }
     }
 }
+
 .news-conatainer {
     display: grid;
     grid-template-rows: 1fr;

@@ -6,25 +6,29 @@
     justify-content: center;
     padding: 10px 0;
     position: relative;
+
     .header_container {
         position: absolute;
         width: 65%;
         display: flex;
         justify-content: space-between;
-       
     }
-    .header_img{
+
+    .header_img {
         padding: 80px;
-        img{
+
+        img {
             height: 350px;
         }
     }
+
     .logo_container {
         img {
             width: 102px;
             height: 68px;
         }
     }
+
     .navbar {
         display: flex;
         align-items: center;
@@ -47,6 +51,7 @@
         }
     }
 }
+
 .main_header_about_page {
     background-color: white;
     position: sticky;
@@ -55,11 +60,13 @@
     display: flex;
     justify-content: center;
     padding: 10px 0;
+
     .header_container {
         width: 65%;
         display: flex;
         justify-content: space-between;
     }
+
     .logo_container {
         img {
             width: 102px;
@@ -88,6 +95,7 @@
         }
     }
 }
+
 @media (max-width: 990px) {
     .navbar {
         a {

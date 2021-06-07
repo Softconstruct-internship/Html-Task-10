@@ -3,16 +3,19 @@
     display: flex;
     justify-content: center;
     padding: 10px 0;
+
     .courses {
         width: 65%;
         padding: 40px 0 40px 0;
         text-align: center;
+
         h1 {
             font-weight: 900;
             font-size: 60px;
             line-height: 70px;
             color: $font_color;
         }
+
         span {
             color: blue;
             font-style: normal;
@@ -21,6 +24,7 @@
             line-height: 29px;
             letter-spacing: 0.6em;
         }
+
         .container_courses {
             div {
                 box-shadow: 15px 15px 35px 5px rgba(0, 0, 0, 0.15);
@@ -29,6 +33,7 @@
                 height: 250px;
                 position: relative;
                 justify-content: center;
+
                 span {
                     display: flex;
                     bottom: 0;
@@ -46,6 +51,7 @@
         }
     }
 }
+
 .container_courses {
     display: grid;
     grid-template-rows: 1fr;
@@ -53,6 +59,7 @@
     grid-gap: 1vw;
     padding: 40px 0 40px 0;
 }
+
 @media (max-width: 1001px) {
     .container_courses {
         grid-template-columns: 500px;

@@ -1,25 +1,31 @@
 footer {
     background-color: black;
+
     .footer_container {
         display: flex;
         color: blanchedalmond;
+
         .addrsee_container {
             display: inline-block;
             padding: 40px 34px 20px 170px;
+
             h2 {
                 padding-bottom: 25px;
             }
+
             .link_a {
                 padding-left: 15px !important;
                 height: 40px;
                 background-color: gray;
                 border-radius: 25px;
                 padding: 0;
-               a{
-                text-decoration: none;
-                color: black;
-               }
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
             }
+
             p {
                 font-style: normal;
                 font-weight: 300;
@@ -28,25 +34,31 @@ footer {
                 letter-spacing: 0.01em;
                 padding-bottom: 25px;
             }
+
             h3 {
                 padding-bottom: 25px;
             }
+
             .footer_icon_container {
                 padding-bottom: 25px;
             }
         }
+
         .links_container {
             display: inline-block;
             padding: 40px 34px 0 170px;
+
             p {
                 padding-top: 40px;
                 border-bottom: 1px solid #ffffff;
+
                 img {
                     left: 0;
                 }
             }
         }
     }
+
     .copyright_container {
         text-align: center;
         font-weight: 300;
@@ -58,4 +70,3 @@ footer {
         padding: 20px 0px 20px 0px;
     }
 }
-
