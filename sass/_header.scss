@@ -11,6 +11,13 @@
         width: 65%;
         display: flex;
         justify-content: space-between;
+       
+    }
+    .header_img{
+        padding: 80px;
+        img{
+            height: 350px;
+        }
     }
     .logo_container {
         img {
