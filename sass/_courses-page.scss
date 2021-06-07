@@ -1,20 +1,21 @@
-.main_section_courses {
+.main_section_coursess {
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 10px 0;
-    .courses {
-        padding: 40px 0 40px 0;
+
+    .coursess {
         width: 65%;
+        padding: 40px 0 40px 0;
         text-align: center;
         h1 {
             font-weight: 900;
             font-size: 60px;
             line-height: 70px;
-            color: $font_color;
+            color: $font_color_news_page;
         }
         span {
-            color: blue;
+            color: gray;
             font-style: normal;
             font-weight: normal;
             font-size: 25px;
@@ -22,11 +23,6 @@
             letter-spacing: 0.6em;
         }
         .container_coursess {
-            display: grid;
-            grid-template-rows: 1fr 1fr;
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 1vw;
-            padding: 40px 0 40px 0;
             div {
                 box-shadow: 15px 15px 35px 5px rgba(0, 0, 0, 0.15);
                 border-radius: 35px;
@@ -38,7 +34,7 @@
                     display: flex;
                     bottom: 0;
                     position: absolute;
-                    color: $font_color;
+                    color: $font_color_news_page;
                     font-style: normal;
                     font-weight: 900;
                     font-size: 15px;
@@ -51,9 +47,19 @@
         }
     }
 }
+.container_coursess {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vw;
+    padding: 40px 0 40px 0;
+}
 
-@media (min-width: 990px) {
+@media (max-width: 990px) {
     .container_coursess {
-        grid-template-columns: 1fr;
+        grid-template-columns: 500px;
+        text-align: center;
+        justify-content: center;
+        padding: 10px 0;
     }
 }

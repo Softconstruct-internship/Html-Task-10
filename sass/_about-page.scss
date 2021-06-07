@@ -48,8 +48,8 @@
 }
 .img_containers {
     display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 120px 120px 120px 120px 120px 120px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
     grid-gap: 2vw;
     padding-top: 30px;
     padding: 20px 0 20px 0;
@@ -60,7 +60,14 @@
         border-radius: 35px;
     }
     img {
-        width: 120px;
-        height: 120px;
+        width: 100%;
+    }
+}
+@media (max-width: 1001px) {
+    .container_about {
+        padding: 20px;
+        .img_containers {
+            grid-template-columns: repeat(3, 1fr);
+        }
     }
 }
